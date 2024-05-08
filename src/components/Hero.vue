@@ -4,9 +4,21 @@ import ButtonGreen from "./common/ButtonGreen.vue";
 import NavBar from "./NavBar.vue";
 </script>
 <template>
-  <div class="flex flex-col min-h-screen">
+  <div class="flex flex-col min-h-screen relative overflow-hidden">
+    <img
+      src="../assets/images/hero/yellow-layer.png"
+      class="max-w-[600px] max-h-[600px] absolute start-[20%] top-0 pointer-events-none"
+      alt="yellow"
+    />
+    <img
+      src="../assets/images/hero/green-layer.png"
+      class="max-w-[600px] max-h-[600px] absolute start-0 top-0 pointer-events-none"
+      alt="yellow"
+    />
     <NavBar />
-    <div class="max-w-[1330px] mx-auto 2xl:px-0 px-3 flex-grow-[1] flex py-10">
+    <div
+      class="max-w-[1330px] mx-auto 2xl:px-0 px-3 flex-grow-[1] flex py-10 relative z-10"
+    >
       <div class="flex items-center flex-wrap lg:flex-row flex-col-reverse">
         <div class="lg:w-6/12 w-full lg:text-start text-center">
           <p
