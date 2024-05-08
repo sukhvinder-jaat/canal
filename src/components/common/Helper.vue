@@ -1,6 +1,7 @@
 <script>
 import Cash from "../icons/Cash.vue";
 import Remittance from "../icons/Remittance.vue";
+
 import Card from "../icons/Card.vue";
 export const navOptions = [
   { link: "Product", path: "#" },
