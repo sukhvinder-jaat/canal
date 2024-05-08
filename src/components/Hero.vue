@@ -10,7 +10,7 @@ import NavBar from "./NavBar.vue";
       <div class="flex items-center flex-wrap lg:flex-row flex-col-reverse">
         <div class="lg:w-6/12 w-full lg:text-start text-center">
           <p
-            class="font-Urbanist font-bold xl:text-6xl lg:text-5xl text-4xl text-lightBlack leading-[140%] mb-[30px]"
+            class="font-Urbanist font-bold xl:text-6xl lg:text-5xl text-4xl text-lightBlack leading-[140%] md:mb-[30px] mb-6"
           >
             The Route to Upward Financial Mobility is Open
           </p>

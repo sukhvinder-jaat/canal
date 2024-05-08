@@ -8,6 +8,7 @@ module.exports = {
         Urbanist: ["Urbanist", "sans-serif"],
       },
       fontSize: {
+        "5xl": "50px",
         "6xl": "64px",
       },
       colors: {
