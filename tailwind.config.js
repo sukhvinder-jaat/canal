@@ -7,13 +7,18 @@ module.exports = {
       fontFamily: {
         Urbanist: ["Urbanist", "sans-serif"],
       },
+      fontSize: {
+        "6xl": "64px",
+      },
       colors: {
         green: "#127780",
         lightBlack: "#161616",
-        greyscale: "#424242",
+        greyScale: "#424242",
         yellow: "#FFD300",
         lightBlue: "#F6FAFD",
         darkPink: "#F75555",
+        softPeach: "#EEEEEE",
+        lavenderPeach: "#E0E0E0",
       },
     },
   },

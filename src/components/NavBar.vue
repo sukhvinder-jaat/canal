@@ -19,7 +19,7 @@ const toggleSidebar = () => {
 </script>
 
 <template>
-  <div class="max-w-[1296px] mx-auto 2xl:px-0 px-3 pt-[30px]">
+  <div class="max-w-[1296px] mx-auto 2xl:px-0 px-3 pt-[30px] w-full">
     <div class="flex items-center justify-between">
       <span class="max-w-[129px] max-h-[50px] relative z-50"><Logo /></span>
       <button
@@ -63,14 +63,14 @@ const toggleSidebar = () => {
             v-for="(options, index) in navOptions"
             :key="index"
             :href="options.path"
-            class="text-lg font-semibold leading-[normal] tracking-[0.2px] text-lightBlack hover:text-green transition-all ease-in-out duration-300"
+            class="md:text-lg text-base font-semibold leading-[normal] tracking-[0.2px] text-lightBlack hover:text-green transition-all ease-in-out duration-300"
             >{{ options.link }}</a
           >
         </div>
         <a href="#" class="max-w-6 max-h-6 group me-[32px]"><Globe /></a>
         <button
           @click="toggleSidebar"
-          class="flex items-center justify-center gap-[5px] border-[1.5px] border-green py-[13px] px-[18px] text-lg font-semibold leading-[normal] tracking-[0.2px] text-green transition-all ease-in-out duration-300 hover:bg-green hover:text-white group"
+          class="flex items-center justify-center gap-[5px] border-[1.5px] border-green py-[13px] px-[18px] md:text-lg text-base font-semibold leading-[normal] tracking-[0.2px] text-green transition-all ease-in-out duration-300 hover:bg-green hover:text-white group"
         >
           <GreenPlus /> Join
         </button>
@@ -92,13 +92,13 @@ const toggleSidebar = () => {
             v-for="(options, index) in navOptions"
             :key="index"
             :href="options.path"
-            class="text-lg font-semibold leading-[normal] tracking-[0.2px] text-lightBlack hover:text-green transition-all ease-in-out duration-300"
+            class="md:text-lg text-base font-semibold leading-[normal] tracking-[0.2px] text-lightBlack hover:text-green transition-all ease-in-out duration-300"
             >{{ options.link }}</a
           >
           <a href="#" class="max-w-6 max-h-6 group me-[32px]"><Globe /></a>
           <button
             @click="toggleSidebar"
-            class="flex items-center justify-center gap-[5px] border-[1.5px] border-green py-[13px] px-[18px] text-lg font-semibold leading-[normal] tracking-[0.2px] text-green transition-all ease-in-out duration-300 hover:bg-green hover:text-white group"
+            class="flex items-center justify-center gap-[5px] border-[1.5px] border-green py-[13px] px-[18px] md:text-lg text-base font-semibold leading-[normal] tracking-[0.2px] text-green transition-all ease-in-out duration-300 hover:bg-green hover:text-white group"
           >
             <GreenPlus /> Join
           </button>
