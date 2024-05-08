@@ -20,7 +20,7 @@ import { fightingCurrent } from "./common/Helper.vue";
             You could be paying separate fees for each financial product you
             use.
           </p>
-          <div class="flex flex-col md:gap-[30px] gap-5">
+          <div class="flex flex-col md:gap-[30px] gap-5 lg:w-full">
             <div
               v-for="(content, index) in fightingCurrent"
               :key="index"
@@ -42,7 +42,7 @@ import { fightingCurrent } from "./common/Helper.vue";
         </div>
         <div class="lg:w-6/12 sm:w-10/12 w-full lg:ps-[49px]">
           <img
-            src="../assets/images/fighting/girl.png"
+            src="../assets/images/fighting/girl.webp"
             alt="girl"
             class="max-w-[618px] w-full lg:mx-0 mx-auto"
           />

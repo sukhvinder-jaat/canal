@@ -6,12 +6,12 @@ import NavBar from "./NavBar.vue";
 <template>
   <div class="flex flex-col min-h-screen relative overflow-hidden">
     <img
-      src="../assets/images/hero/yellow-layer.png"
+      src="../assets/images/hero/yellow-layer.webp"
       class="max-w-[600px] max-h-[600px] absolute start-[20%] top-0 pointer-events-none"
       alt="yellow"
     />
     <img
-      src="../assets/images/hero/green-layer.png"
+      src="../assets/images/hero/green-layer.webp"
       class="max-w-[600px] max-h-[600px] absolute start-0 top-0 pointer-events-none"
       alt="yellow"
     />
@@ -56,7 +56,7 @@ import NavBar from "./NavBar.vue";
           class="lg:w-6/12 sm:w-8/12 w-full flex lg:justify-end justify-center lg:ps-5 lg:mb-0 mb-5"
         >
           <img
-            src="../assets/images/hero/mobile.png"
+            src="../assets/images/hero/mobile.webp"
             class="max-w-[546px] max-h-[657px] w-full h-full"
             alt="mobile"
           />
