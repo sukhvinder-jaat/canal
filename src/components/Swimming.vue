@@ -1,7 +1,7 @@
 <template>
   <div class="relative" id="swimming">
     <img
-      src="../assets/images/swimming/green-layer.webp"
+      src="/src/assets/images/swimming/green-layer.webp"
       alt="mobile man"
       class="max-w-[600px] absolute start-0 top-[5%] w-full"
     />
@@ -9,7 +9,7 @@
       <div class="flex items-center flex-wrap lg:mb-[150px] lg:mt-0 my-20">
         <div class="lg:w-6/12 sm:w-10/12 w-full lg:mx-0 mx-auto">
           <img
-            src="../assets/images/swimming/mobile-man.webp"
+            src="/src/assets/images/swimming/mobile-man.webp"
             alt="mobile man"
             class="max-w-[600px] w-full lg:mx-0 mx-auto"
           />
