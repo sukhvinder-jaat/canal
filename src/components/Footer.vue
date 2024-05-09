@@ -16,9 +16,9 @@ const footerLink = [
     title: "Links",
     links: [
       { link: "Home", path: "#" },
-      { link: "About us", path: "#" },
-      { link: "Bookings", path: "#" },
-      { link: "Blog", path: "#" },
+      { link: "About us", path: "#swimming" },
+      { link: "Bookings", path: "#fighting" },
+      { link: "Blog", path: "#swimming" },
     ],
   },
   {
@@ -32,16 +32,16 @@ const footerLink = [
   {
     title: "Product",
     links: [
-      { link: "Take tour", path: "#" },
-      { link: "Live chat", path: "#" },
-      { link: "Reveiws", path: "#" },
+      { link: "Take tour", path: "#swimming" },
+      { link: "Live chat", path: "#fighting" },
+      { link: "Reveiws", path: "#swimming" },
     ],
   },
 ];
 </script>
 <template>
   <div class="bg-black">
-    <div class="max-w-[1320px] mx-auto 2xl:px-0 px-3 pt-[104px] pb-[91px]">
+    <div class="max-w-[1320px] mx-auto 2xl:px-0 px-3 lg:pt-[104px] lg:pb-[84px] py-20">
       <div class="flex flex-wrap">
         <div class="lg:w-3/12 md:w-5/12 w-full lg:mb-0 mb-5">
           <span class="max-w-[122px]"><FooterLogo /></span>

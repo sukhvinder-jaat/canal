@@ -4,8 +4,8 @@ import Remittance from "../icons/Remittance.vue";
 
 import Card from "../icons/Card.vue";
 export const navOptions = [
-  { link: "Product", path: "#" },
-  { link: "Mission", path: "#" },
+  { link: "Product", path: "#swimming" },
+  { link: "Mission", path: "#fighting" },
 ];
 export const fightingCurrent = [
   { icon: Cash, title: "Check Cashing", fee: "4.5-9.9% Fee" },

@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="relative" id="swimming">
     <img
       src="../assets/images/swimming/green-layer.webp"
       alt="mobile man"
