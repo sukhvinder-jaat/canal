@@ -3,7 +3,7 @@
     <img
       src="/src/assets/images/swimming/green-layer.webp"
       alt="mobile man"
-      class="max-w-[600px] absolute start-0 top-[5%] w-full"
+      class="max-w-[600px] absolute start-0 top-[5%] w-full  pointer-events-none"
     />
     <div class="max-w-[1259px] mx-auto 2xl:px-0 px-3 relative z-10">
       <div class="flex items-center flex-wrap lg:mb-[150px] lg:mt-0 my-20">
@@ -18,7 +18,7 @@
           class="lg:w-6/12 w-full lg:ps-[75px] lg:text-start text-center flex flex-col lg:items-start items-center lg:pt-0 pt-8"
         >
           <p
-            class="text-lightBlack font-bold xl:text-5xl md:text-[40px] text-4xl leading-[140%] max-w-[560px] md:mb-[30px] mb-6"
+            class="text-lightBlack font-bold xl:text-5xl md:text-[40px] text-[30px]  leading-[140%] max-w-[560px] md:mb-[30px] mb-6"
           >
             Swimming Upstream with your Finances?
           </p>

@@ -92,6 +92,7 @@ const toggleSidebar = () => {
             v-for="(options, index) in navOptions"
             :key="index"
             :href="options.path"
+            @click="toggleSidebar"
             class="md:text-lg text-base font-semibold leading-[normal] tracking-[0.2px] text-lightBlack hover:text-green transition-all ease-in-out duration-300"
             >{{ options.link }}</a
           >

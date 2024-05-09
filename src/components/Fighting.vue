@@ -3,14 +3,14 @@ import Cash from "./icons/Cash.vue";
 import { fightingCurrent } from "./common/Helper.vue";
 </script>
 <template>
-  <div class="bg-lightBlue lg:py-[163px] py-20" id="fighting">
+  <div class="bg-lightBlue 2xl:py-[163px] lg:py-[100px] py-20" id="fighting">
     <div class="max-w-[1316px] mx-auto 2xl:px-0 px-3">
       <div class="flex items-center lg:flex-row flex-col-reverse flex-wrap">
         <div
           class="lg:w-6/12 lg:text-start text-center flex flex-col lg:items-start items-center w-full lg:pe-[49px]"
         >
           <p
-            class="text-lightBlack font-bold xl:text-5xl md:text-[40px] text-4xl leading-[110%] max-w-[570px] mb-5"
+            class="text-lightBlack font-bold xl:text-5xl md:text-[40px] text-[30px] leading-[110%] max-w-[570px] mb-5"
           >
             Fighting the Current with your Finances?
           </p>
@@ -24,18 +24,18 @@ import { fightingCurrent } from "./common/Helper.vue";
             <div
               v-for="(content, index) in fightingCurrent"
               :key="index"
-              class="shadow-[0px_10px_50px_0px_#00000012] transition-all ease-in-out duration-300 hover:shadow-2xl md:py-[25px] py-5 sm:max-w-[600px] md:px-[30px] px-5 flex items-center justify-between"
+              class="shadow-[0px_10px_50px_0px_#00000012] transition-all ease-in-out duration-300 hover:shadow-2xl md:py-[25px] py-5 sm:max-w-[600px] md:px-[30px] px-5 flex items-center justify-between bg-white"
             >
               <div class="flex items-center md:gap-5 gap-2">
                 <span class="md:max-w-[51px] max-w-[30px]">
                   <component :is="content.icon"
                 /></span>
-                <p class="font-bold md:text-2xl sm:text-xl text-lg text-black">
+                <p class="font-bold xl:text-2xl sm:text-xl text-lg text-black">
                   {{ content.title }}
                 </p>
               </div>
               <p
-                class="font-bold md:text-2xl sm:text-xl text-lg text-darkPink md:PS-0 ps-1"
+                class="font-bold xl:text-2xl sm:text-xl text-lg text-darkPink md:PS-0 ps-1"
               >
                 {{ content.fee }}
               </p>

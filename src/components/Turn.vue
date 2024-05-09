@@ -3,16 +3,18 @@
     <img
       src="/src/assets/images/turn/layer.webp"
       alt="arrow"
-      class="absolute start-0 top-[-25%] max-w-[600px]"
+      class="absolute start-0 top-[-25%] max-w-[600px] pointer-events-none"
     />
     <img
       src="/src/assets/images/turn/yellow-layer.webp"
       alt="arrow"
-      class="absolute end-0 bottom-[-40%] max-w-[600px]"
+      class="absolute end-0 bottom-[-40%] max-w-[600px] pointer-events-none"
     />
-    <div class="max-w-[1320px] mx-auto 2xl:px-0 px-3 lg:py-[150px] py-20">
+    <div
+      class="max-w-[1320px] mx-auto 2xl:px-0 px-3 2xl:py-[150px] lg:py-[100px] py-20"
+    >
       <p
-        class="text-lightBlack font-bold xl:text-5xl md:text-[40px] text-4xl leading-[140%] text-center mb-[50px]"
+        class="text-lightBlack font-bold xl:text-5xl md:text-[40px] text-[30px] leading-[140%] text-center mb-[50px]"
       >
         Turn The Tide In Minutes
       </p>

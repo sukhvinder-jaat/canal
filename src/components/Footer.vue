@@ -40,13 +40,15 @@ const footerLink = [
 ];
 </script>
 <template>
-  <div class="bg-black">
-    <div class="max-w-[1320px] mx-auto 2xl:px-0 px-3 lg:pt-[104px] lg:pb-[84px] py-20">
+  <div class="bg-lightBlack">
+    <div
+      class="max-w-[1320px] mx-auto 2xl:px-0 px-3 lg:pt-[104px] lg:pb-[84px] py-20"
+    >
       <div class="flex flex-wrap">
         <div class="lg:w-3/12 md:w-5/12 w-full lg:mb-0 mb-5">
           <span class="max-w-[122px]"><FooterLogo /></span>
           <p
-            class="text-xxl text-white font-semibold tracking-[-0.5%] mt-[50px] mb-5"
+            class="text-xxl text-white uppercase font-semibold tracking-[-0.5%] mt-[50px] mb-5"
           >
             Follow Us
           </p>
