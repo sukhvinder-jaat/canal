@@ -21,7 +21,10 @@ const toggleSidebar = () => {
 <template>
   <div class="max-w-[1296px] mx-auto 2xl:px-0 px-3 pt-[30px] w-full">
     <div class="flex items-center justify-between">
-      <span class="max-w-[129px] max-h-[50px] relative z-50"><Logo /></span>
+      <span class="max-w-[129px] max-h-[50px] relative z-50">
+        <!-- <Logo /> -->
+        <img src="/src/assets/images/hero/logo.gif" alt="logo"
+      /></span>
       <button
         @click="toggleSidebar"
         class="z-50 bg-green md:hidden text-white p-2 rounded-md"
