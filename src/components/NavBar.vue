@@ -78,7 +78,7 @@ const toggleSidebar = () => {
           <GreenPlus /> Join
         </button>
       </div>
-    </div>
+    </div> 
     <!-- Sidebar toggle button -->
 
     <!-- Sidebar -->
