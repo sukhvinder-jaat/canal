@@ -72,13 +72,12 @@ const toggleSidebar = () => {
         </div>
         <a href="#" class="max-w-6 max-h-6 group me-[32px]"><Globe /></a>
         <button
-          @click="toggleSidebar"
           class="flex items-center justify-center gap-[5px] border-[1.5px] border-green py-[13px] px-[18px] md:text-lg text-base font-semibold leading-[normal] tracking-[0.2px] text-green transition-all ease-in-out duration-300 hover:bg-green hover:text-white group"
         >
           <GreenPlus /> Join
         </button>
       </div>
-    </div> 
+    </div>
     <!-- Sidebar toggle button -->
 
     <!-- Sidebar -->
